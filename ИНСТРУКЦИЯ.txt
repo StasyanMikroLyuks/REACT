@@ -1,0 +1,25 @@
+установить node js
+1) npm init react-app ... 
+где ... название папки приложения
+2) npm install react-router
+3) npm install -D tailwindcss
+4) npx tailwindcss init
+5) Добавить строки 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+в .../src/index.css
+6) cd ...
+7) npm run start
+изменять App.js = главная страница 
+
+
+
+НАВИГАЦИЯ ПО ДРУГИМ СТРАНИЦАМ
+установить npm i react-router-dom
+в app.js import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+прописать <router> </router> в app.js после return()
+simple react snippets расширение скачать
+команда sfc = быстрое создание функции 
+Компоненты = могут использоваться на разных страницах
+Pages = страницы сайта
